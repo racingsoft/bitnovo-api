@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Market.Api.Data
+namespace Market.Infrastructure.Entities
 {
     public class MarketContext : DbContext
     {

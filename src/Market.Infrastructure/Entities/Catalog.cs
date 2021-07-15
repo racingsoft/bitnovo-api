@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
+using DTO = Market.Core.DTO;
 
-namespace Market.Api.Data
+namespace Market.Infrastructure.Entities
 {
-    public class Catalog
+    public class Catalog : Entity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string ExternalId { get; set; }
         public decimal Amount { get; set; }

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace Market.Api.ViewModels
+namespace Market.Infrastructure.Entities
 {
-    public class CreateOrderResponse
+    public abstract class Entity : IEntity
     {
         public int Id { get; set; }
-        public decimal Amount { get; set; }
     }
 }

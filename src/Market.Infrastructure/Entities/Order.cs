@@ -1,8 +1,7 @@
-﻿namespace Market.Api.Data
+﻿namespace Market.Infrastructure.Entities
 {
-    public class Order
+    public class Order : Entity
     {
-        public int Id { get; set; }
         public int CatalogId { get; set; }
         public string ExternalId { get; set; }
         public decimal Amount { get; set; }
