@@ -171,7 +171,7 @@ namespace Market.Infrastructure.Services
 
             return _orderConverter.ConvertToDTO(order);
         }
-        
+
         private async Task<Catalog> GetProductByIdAsync(int id)
         {
             var catalog = await _catalogRepository.GetByIdAsync(id);
